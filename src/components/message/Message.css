@@ -1,0 +1,31 @@
+.message {
+    border-radius: 8px;
+    padding: 8px;
+    width: 200px;
+    margin-bottom: 16px;
+}
+
+.message.user {
+    background-color: rgba(211, 211, 211, .3);
+    border: 1px solid gray;
+    color: gray;
+    align-self: end;
+} 
+
+.message.bot {
+    background-color: darkgrey;
+    border: 1px solid darkgrey;
+    color: white;
+    align-self: start;
+}
+
+.message .author {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.message .text {
+    display: block;
+    font-size: 18px;
+}

@@ -1,0 +1,22 @@
+.form {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin: 24px auto;
+}
+
+.form .input {
+    height: 28px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    font-size: 16px;
+    flex-grow: 1;
+    margin-right: 8px;
+}
+
+.form .button {
+    height: 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
