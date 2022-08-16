@@ -1,0 +1,12 @@
+.app {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 100%;
+    margin: auto;
+    padding: 48px 0 24px 0;
+    flex-grow: 1;
+  }
+  .MessageBox{
+    flex-grow: 1;
+  }
